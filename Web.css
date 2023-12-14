@@ -1,0 +1,144 @@
+/* Estilos para el header y el menú */
+header {
+    background-color: #000090;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+body
+{
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: lightgray;
+}
+
+#Principal
+{
+    height: 100vh;
+    background-image: url('img/fondo1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+.principalboton
+{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000090 ;
+    margin-top: -50px;
+}
+
+#usuario
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#fotoperfil
+{
+    padding: 30px;
+    border-radius: 40px;
+    background-color: gray;
+}
+#Planaprincipal 
+{
+    font-size: 100px;
+}
+
+.red
+{
+    color:#FF0000 ;
+}
+
+.blue
+{
+    color:#000090;
+}
+
+.semired
+{
+    color: #FF007A;
+}
+
+.pink
+{
+    color: #FD00F3;
+}
+
+.orange
+{
+    color: #FF7B00;
+}
+
+
+/*Proyectos*/
+
+#proyectos
+{
+    height: 150vh;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.NombreProyecto
+{
+    text-align: center;
+    border: 2px solid #000;
+    padding: 10px;
+    width: 1140px;
+    background-color: #FD00F3;
+}
+
+.actividades
+{
+    text-align: center;
+    border: 2px solid #000;
+    padding: 80px;
+    width: 1000px;
+    background-color: #FD00F3;
+}
