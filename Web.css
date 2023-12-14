@@ -142,3 +142,97 @@ nav ul li a:hover {
     width: 1000px;
     background-color: #FD00F3;
 }
+
+/*Actividades*/
+
+#Asignaturas
+{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('img/fondo2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.NombreAsignatura
+{
+    font-size: 47px;
+    width: 1098px;
+    height: 178px;
+    border: 2px solid #FFF500;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0A3D;
+}
+
+#actividades
+{
+    margin-top: 140px;
+    display: flex;
+    gap: 380px;
+    
+}
+
+.actividad
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 320px;
+    width: 320px;
+    border: 2px solid #FFF500;
+    background-color: #0A0A3D;
+    border-radius: 10px;
+}
+
+.actividad p
+{
+    font-size: 20px;
+    color: white;
+}
+
+.item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.IconItem
+{
+    padding: 15px;
+    border: 2px solid #FFF500;
+    border-radius: 40px;
+}
+
+.itemName
+{
+    font-size: 10px;
+}
+
+.porcentatje
+{
+    padding: 5px;
+    border: 2px solid #FFF500;
+    border-radius: 5px;
+}
+
+.nota
+{
+   
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #FFF500;
+    border-radius: 5px;
+
+
+}
