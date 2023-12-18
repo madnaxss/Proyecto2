@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Press+Start+2P&display=swap');
+
+/* Estilos para el header y el menú */
+header {
+    background-color: #000090;
+    color: white;
+    padding: 20px 0;
+    margin: 0;
+}
+body
+{
+    margin: 0;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: lightgray;
+}
+
+#Principal
+{
+    height: 100vh;
+    background-image: url('img/fondo1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
+
+.principalboton
+{
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #000090 ;
+    margin-top: -50px;
+}
+
+#usuario
+{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#fotoperfil
+{
+    padding: 30px;
+    border-radius: 40px;
+    background-color: gray;
+}
+#Planaprincipal 
+{
+    font-size: 100px;
+    font-family: 'Press Start 2P';
+}
+
+.red
+{
+    color:#FF0000 ;
+}
+
+.blue
+{
+    color:#000090;
+}
+
+.semired
+{
+    color: #FF007A;
+}
+
+.pink
+{
+    color: #FD00F3;
+}
+
+.orange
+{
+    color: #FF7B00;
+}
+
+
+/*Proyectos*/
+
+#proyectos
+{
+    height: 150vh;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proyecto
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.NombreProyecto
+{
+    text-align: center;
+    border: 2px solid #000;
+    padding: 10px;
+    width: 1140px;
+    background-color: #FD00F3;
+}
+
+.actividades
+{
+    text-align: center;
+    border: 2px solid #000;
+    padding: 80px;
+    width: 1000px;
+    background-color: #FD00F3;
+}
+
+/*Actividades*/
+
+#Asignaturas
+{
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url('img/fondo2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.NombreAsignatura
+{
+    font-size: 47px;
+    width: 1098px;
+    height: 178px;
+    border: 2px solid #FFF500;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A0A3D;
+}
+
+#actividades
+{
+    margin-top: 140px;
+    display: flex;
+    gap: 380px;
+    
+}
+
+.actividad
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    height: 320px;
+    width: 320px;
+    border: 2px solid #FFF500;
+    background-color: #0A0A3D;
+    border-radius: 10px;
+}
+
+.actividad p
+{
+    font-size: 20px;
+    color: white;
+}
+
+.item
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.IconItem
+{
+    padding: 15px;
+    border: 2px solid #FFF500;
+    border-radius: 40px;
+}
+
+.itemName
+{
+    font-size: 10px;
+}
+
+.porcentatje
+{
+    padding: 5px;
+    border: 2px solid #FFF500;
+    border-radius: 5px;
+}
+
+.nota
+{
+   
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid #FFF500;
+    border-radius: 5px;
+
+
+}
+
+/*Perfil usuario*/
+
+
+#PerfilUsuario
+{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+#perfil
+{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+#FotoDePerfil
+{
+    background-color: gray;
+    height: 100px;
+    border-radius: 60px;
+    width: 100px;
+}
+
+#DatosUsuario
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.dades
+{
+    width: 300px;
+}
+
+.contenedor
+{
+    margin: 80px;
+}
+
+#GuardarDades
+{
+    margin-left: 950px;
+    background-color: #000090;
+    color: white;
+    height: 70px;
+    width: 140px;
+    border-radius: 15px;
+}
+
+.dades
+{
+    background-color: #AD09A6;
+    border: 2px solid #0A0A3D;
+    border-radius: 5px;
+    height: 30px;
+    width: 500px;
+    color: white;
+}
