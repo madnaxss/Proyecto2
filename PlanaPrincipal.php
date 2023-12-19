@@ -18,8 +18,8 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="proyectos.html">Proyectos</a></li>
-                        <li><a href="Asignaturas.html">Actividades</a></li>
+                        <li><a href="proyectos.php">Proyectos</a></li>
+                        <li><a href="Asignaturas.php">Actividades</a></li>
                     </ul>
                 </nav>
             </div>

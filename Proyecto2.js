@@ -1,5 +1,5 @@
 function Asignaturas() {
-    window.location.href = "Asignaturas.html"; 
+    window.location.href = "Asignaturas.php"; 
 }
 
 window.onload = function() {
