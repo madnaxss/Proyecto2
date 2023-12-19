@@ -3,6 +3,7 @@
     <head>
         <title>Web</title>
         <link rel="stylesheet" type="text/css" href="Web.css">
+        <script src="Proyecto2.js"></script>
     </head>
     <body>
         <header>
@@ -17,8 +18,8 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#">Proyectos</a></li>
-                        <li><a href="#">Actividades</a></li>
+                        <li><a href="proyectos.html">Proyectos</a></li>
+                        <li><a href="Asignaturas.html">Actividades</a></li>
                     </ul>
                 </nav>
             </div>

@@ -3,6 +3,7 @@
     <head>
         <title>Web</title>
         <link rel="stylesheet" type="text/css" href="Web.css">
+        <script src="Proyecto2.js"></script>
     </head>
     <body>
         <header>
@@ -24,7 +25,7 @@
             </div>
         </header>
         <section id="proyectos">
-            <div class="proyecto">
+            <div class="proyecto" onclick="Asignaturas()">
                 <div class="NombreProyecto">
                     <p>NOMBRE PROYECTO</p>
                 </div>
@@ -32,7 +33,7 @@
                     <p>actividades</p>
                 </div>
             </div>
-            <div class="proyecto">
+            <div class="proyecto" onclick="Asignaturas()">
                 <div class="NombreProyecto">
                     <p>NOMBRE PROYECTO</p>
                 </div>
@@ -40,7 +41,7 @@
                     <p>actividades</p>
                 </div>
             </div>
-            <div class="proyecto">
+            <div class="proyecto" onclick="Asignaturas()">
                 <div class="NombreProyecto">
                     <p>NOMBRE PROYECTO</p>
                 </div>

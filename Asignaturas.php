@@ -29,7 +29,7 @@
         </div>
         <div id="actividades">
             <div class="actividad">
-                <p>NOMBRE TRABAJO</p>
+                <p class="TituloTrabajo">NOMBRE TRABAJO</p>
                 <div class="item">
                     <div class="IconItem">
 
