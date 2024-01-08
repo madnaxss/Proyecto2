@@ -1,5 +1,6 @@
 /* Estilos para el header y el menú */
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Press+Start+2P&display=swap');
+
 header {
     background-color: #000090;
     color: white;
@@ -61,7 +62,7 @@ nav ul li a:hover {
     padding: 20px;
     border-radius: 10px;
     background-color: #000090;
-    
+
 }
 
 #usuario {
@@ -189,7 +190,7 @@ nav ul li a:hover {
     align-items: center;
     padding: 10px;
     height: 320px;
-    width: 320px;
+    width: 360px;
     border: 2px solid #FFF500;
     background-color: #0A0A3D;
     border-radius: 10px;
@@ -201,9 +202,10 @@ nav ul li a:hover {
     font-family: 'Press Start 2P';
 }
 
-.NombreAsignatura{
+.NombreAsignatura {
     font-family: 'Press Start 2P';
 }
+
 .item {
     display: flex;
     justify-content: center;
@@ -218,7 +220,7 @@ nav ul li a:hover {
 }
 
 .itemName {
-    font-size: 10px;
+    font-size: 2px;
 }
 
 .porcentatje {
@@ -295,8 +297,7 @@ nav ul li a:hover {
     color: white;
 }
 
-input::placeholder
-{
+input::placeholder {
     font-family: 'Press Start 2P';
 }
 
@@ -310,42 +311,156 @@ input::placeholder
         font-family: 'Press Start 2P';
     }
 
-    #NombreUsuario
-    {
+    #NombreUsuario {
         display: none;
     }
 
     /*Asignaturas*/
 
-    #actividades{
+    #actividades {
         flex-direction: column;
-        gap : 10px;
+        gap: 10px;
     }
 
-    #Asignaturas
-    {
+    #Asignaturas {
         height: 200vh;
     }
 
-    .NombreAsignatura
-    {
+    .NombreAsignatura {
         font-size: 30px;
         width: 350px;
+        text-align: center;
     }
 
     /*PerfilUsuario*/
-    #perfil
-    {
+    #perfil {
         display: flex;
         flex-direction: column;
     }
-    #PerfilUsuario
-    {
+
+    #PerfilUsuario {
         justify-content: center;
     }
-    #GuardarDades
-    {
+
+    #GuardarDades {
         margin-left: 0;
     }
 
+}
+
+/* Asignatura Profesor */
+.bx {
+    color: #FFF500;
+}
+
+.suma-bx {
+    color: #FFF500;
+    font-size: 25px;
+    text-align: left;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 10px;
+}
+
+.btGuardar {
+    border: 2px solid #FFF500;
+    border-radius: 5px;
+
+    background-color: #0A0A3D;
+    color: white;
+
+    font-family: 'Press Start 2P';
+
+    padding: 5px;
+}
+
+.actividadAfegir {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 320px;
+    width: 360px;
+    border: 2px solid #FFF500;
+    background-color: #0A0A3D;
+    border-radius: 10px;
+}
+
+.añadir-bx {
+    font-size: 50px;
+    color: #FFF500;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.añadir-bx:hover {
+    color: white;
+    transition: 1s all;
+}
+
+/* Crear Actividad */
+#crearActividad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 100vh;
+
+    background-image: url(img/fondo3.png);
+    background-size: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 100px;
+    gap: 20px;
+} 
+
+#NombreActividad {
+    padding: 10px 65px 10px 5px;
+}
+
+#crearItem, #crearPorcentaje {
+    padding: 10px 65px 10px 5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Login */
+.log {
+    height: 100vh;
+
+    background-image: url(img/fons.webp);
+    background-size: cover;
+
+    font-family: 'Press Start 2P';
+    color: white;
+
+    padding-top: 200px;
+}
+
+h2 {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+form {
+    padding-left: 20px;
+}
+
+.log input {
+    margin-bottom: 20px;
+    margin-top: 5px;
 }
