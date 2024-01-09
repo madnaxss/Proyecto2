@@ -61,14 +61,15 @@
                     <i class='bx bx-edit'></i>
                     <i class='bx bx-trash' ></i>
                 </div>
-                <i class='bx bx-add-to-queue suma-bx'></i>
+                <i class='bx bx-add-to-queue suma-bx' onclick='canviarItem()'></i>
                 <button class='btGuardar'>GUARDAR</button>
             </div>
             <div class="actividadAfegir">
-            <a href="CrearActividad.php"><i class='bx bx-add-to-queue añadir-bx'></i></a>
+            <a ><i class='bx bx-add-to-queue añadir-bx' onclick='canviarActividad()'></i></a>
             </div>
         </div>
         </div>
     </section>
+    <script src="Proyecto2.js"></script>
 </body>
 </html>

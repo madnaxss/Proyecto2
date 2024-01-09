@@ -29,12 +29,10 @@
     <section id="PerfilUsuario">
         <div class="contenedor">
             <div id="DatosUsuario">
-                <h2>CREAR ACTIVIDAD</h2>
-                <input type="text" class="dades" name="nombre" placeholder="Nombre Actividad" required>
-                <label for="fechaInicio">Fecha Inicio</label>
-                <input type="date" class="dades" name="fechaInicio" id="fechaInicio" required>
-                <label for="fechaInicio">Fecha Final</label>
-                <input type="date" class="dades" name="fechaFinal" id="fechaFinal" required>
+                <h2>CREAR ITEM</h2>
+                <input type="text" class="dades" name="item" placeholder="Nombre Item" required>
+                <input type="text" class="dades" name="nota" placeholder="% de la nota" required>
+                <input type="file" name="fichero" required>
                 <button id="GuardarDades">GUARDAR</button>
             </div>
         </div>

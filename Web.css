@@ -271,6 +271,17 @@ nav ul li a:hover {
     gap: 40px;
 }
 
+#DatosUsuario h2 {
+    font-family: 'Press Start 2P';
+    color: white;
+}
+
+#DatosUsuario label {
+    font-family: 'Press Start 2P';
+    color: white;
+    font-size: 0.7em;
+}
+
 .dades {
     width: 300px;
 }
@@ -299,6 +310,7 @@ nav ul li a:hover {
 
 input::placeholder {
     font-family: 'Press Start 2P';
+    text-align: center;
 }
 
 
@@ -346,9 +358,16 @@ input::placeholder {
         margin-left: 0;
     }
 
+    /* Crear Actividad */
+    /* .formCrear form {
+        width: 0px;
+        margin: 0;
+        padding: 0;
+    } */
 }
 
 /* Asignatura Profesor */
+
 .bx {
     color: #FFF500;
 }
@@ -403,8 +422,8 @@ input::placeholder {
     transition: 1s all;
 }
 
-/* Crear Actividad */
-#crearActividad {
+/* Nombre Poryecto */
+#crearProyecto {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -415,27 +434,10 @@ input::placeholder {
     background-size: cover;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-    margin-top: 100px;
-    gap: 20px;
-} 
-
-#NombreActividad {
-    padding: 10px 65px 10px 5px;
-}
-
-#crearItem, #crearPorcentaje {
-    padding: 10px 65px 10px 5px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
+#NombreProyecto {
+    padding: 20px 95px 10px 5px;
+    overflow: visible;
+    width: 200px;
 }
 
 /* Login */
