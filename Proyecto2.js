@@ -21,6 +21,13 @@ function canviarItem() {
   window.location.href = "CrearItem.php";
 }
 
+function Alumno() {
+  window.location.href = "PlanaPrincipalA.html";
+}
+
+function Profesor() {
+  window.location.href = "PlanaPrincipalP.html";
+}
 function canviarActividad() {
   window.location.href = "CrearActividad.php";
 }

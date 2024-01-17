@@ -6,6 +6,7 @@
     <title>Alumnos</title>
     <link rel="stylesheet" href="Web.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
         #alumnos {
             display: flex;
@@ -15,12 +16,14 @@
         }
 
         .usuario-box {
-            border: 1px solid #ccc;
+            border: 4px dashed #FFF500;
             padding: 10px;
             width: 200px;
             height: 350px;
             text-align: center;
             margin: 10px; /* Añadido para dar espacio entre las cajas */
+            font-family: 'Press Start 2P';
+            font-size: 0.7em;
         }
 
         .img {
