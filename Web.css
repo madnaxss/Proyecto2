@@ -445,9 +445,11 @@ form {
 /* Alumnos */
 #alumnos {
     background-image: url(img/fondo2.png);
-    height: 100vh;
-
+    height: 70vh;
+    background-repeat:no-repeat;
+    background-size: cover;
     padding-top: 200px;
+    overflow: auto;
 }
 
 .crear {
@@ -457,7 +459,7 @@ form {
     padding-top: 50px;
 }
 
-/* Alumnos */
+/* Lista Alumnos */
 #alumnos {
     display: flex;
     flex-wrap: wrap;
@@ -477,6 +479,12 @@ form {
     max-width: 100%;
     height: auto;
 }
+
+/* .crearAlumno-bx {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
 
 @media (max-width: 1000px) {
 
