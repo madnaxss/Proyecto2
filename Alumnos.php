@@ -6,6 +6,7 @@
     <title>Alumnos</title>
     <link rel="stylesheet" href="Web.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <style>
         #alumnos {
@@ -19,11 +20,28 @@
             border: 4px dashed #FFF500;
             padding: 10px;
             width: 200px;
-            height: 350px;
+            height: 290px;
             text-align: center;
             margin: 10px; /* Añadido para dar espacio entre las cajas */
             font-family: 'Press Start 2P';
             font-size: 0.7em;
+            color: #ccc;
+            background-color: #0A0A3D;
+        }
+
+        .usuario-boxx {
+            border: 4px dashed #FFF500;
+            padding: 10px;
+            width: 200px;
+            height: 290px;
+            text-align: center;
+            margin: 10px; /* Añadido para dar espacio entre las cajas */
+            font-family: 'Press Start 2P';
+            font-size: 0.7em;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #0A0A3D;
         }
 
         .img {
@@ -51,6 +69,9 @@
         </div>
     </header>
     <section id="alumnos">
+        <div class="usuario-boxx">
+            <a ><i class='bx bx-add-to-queue añadir-bx' onclick='anadirActividad()'></i></a>
+        </div>
         <?php
             $conn = mysqli_connect("localhost", "root", "", "admin");
             $sql = "SELECT * FROM persona";
@@ -74,4 +95,5 @@
         ?>
     </section>
 </body>
+<script src="Proyecto2.js"></script>
 </html>
